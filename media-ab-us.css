@@ -1,0 +1,137 @@
+@media (max-width: 1024px) {
+  .about-us-right-image {
+    background-size: auto auto;
+    background-position: 600px 0;
+  }
+
+  .about-us .container-first {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+
+  .about-us .container-first h3 {
+    padding-top: 100px;
+    width: 40%;
+  }
+
+  .about-us .container-first p {
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+
+  .about-us .container-first p span {
+    font-size: 0.9em;
+  }
+
+  .about-us .container-second {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-us .container-second h2 {
+    display: block;
+    position: relative;
+    width: 63.2%;
+    margin: 0 auto 5%;
+    padding-top: 15%;
+    text-align: center;
+  }
+
+  .about-us .container-second p {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-us-right-image {
+    background-size: auto auto;
+    background-position: 450px 0;
+  }
+
+  .about-us .container-first h3 {
+    width: 50%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .about-us .container-first p {
+    width: 55%;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-top: 50px;
+  }
+
+  .about-us .container-second p {
+    font-size: 0.9em;
+  }
+
+  .container-third .list-help li {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 540px) {
+  .bg-blue {
+    height: 85vh;
+  }
+
+  .about-us-right-image {
+    background-size: auto auto;
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+  }
+
+  .about-us .container-first h3 {
+    width: 95%;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    padding-top: 35vh;
+  }
+
+  .about-us .container-first p {
+    width: 95%;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 5vh;
+  }
+
+  .about-us .container-first p span {
+    font-size: 0.9em;
+  }
+
+  .about-us .container-second {
+    height: 70vh;
+    width: 85%;
+  }
+
+  .about-us .container-second p {
+    width: 95%;
+    font-size: 1.1em;
+    margin: 10vh auto 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .about-us .container-first h3 {
+    font-size: 1.3em;
+  }
+
+  .about-us .container-first p {
+    font-size: 0.9em;
+  }
+
+  .about-us .container-first p span {
+    font-size: 0.8em;
+  }
+
+  .about-us .container-second p {
+    font-size: 0.9em;
+  }
+}

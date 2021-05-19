@@ -1,0 +1,284 @@
+@media (max-width: 1120px) {
+  /*шапка*/
+  .container-bg {
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .bg-first {
+    background-size: 500px auto;
+  }
+
+  .bg-second {
+    background-size: 550px auto;
+    background-position: 100% 10%;
+  }
+
+  .menu {
+    width: 90%;
+    margin: 1.21% auto 0 auto;
+  }
+
+  .content-header {
+    width: 45%;
+    margin: 13% 5% 0 5%;
+    float: left;
+  }
+
+  .content-header .p-first {
+    width: 70%;
+  }
+
+  .content-header .p-second {
+    margin-top: 25%;
+  }
+
+  .content-header .btn {
+    margin-top: 15%;
+  }
+  /*Видимость элементов*/
+  .hidden-pl {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  /*Видимость элементов*/
+  .hidden-mobile {
+    display: none;
+  }
+
+  .hidden-pl {
+    display: block;
+  }
+
+  /*остальная часть*/
+
+  .container-bg {
+    background: linear-gradient(90deg, #f4f9e2 95%, #fff 95%);
+    height: 100vh;
+  }
+
+  .bg-first {
+    background-size: 50% auto;
+    height: 100vh;
+  }
+
+  .bg-second {
+    background-size: 50% auto;
+    background-position: 100% 0;
+    height: 100vh;
+  }
+
+  .menu {
+    height: 10vh;
+  }
+
+  .menu .nav-menu ul li a {
+    font-size: 1.2em;
+  }
+
+  .content-header {
+    width: 90%;
+    height: 90vh;
+    margin: 5% 5% 0 5%;
+    float: left;
+  }
+
+  .content-header .p-first {
+    width: 50%;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+
+  .content-header .p-second {
+    width: 80%;
+    margin-top: 10%;
+    font-size: 1em;
+  }
+
+  .content-header .btn {
+    margin-top: 5%;
+    margin-right: 12%;
+  }
+
+  .content-header .btn button {
+    margin-right: 2%;
+  }
+
+  .content-header .btn button:first-child,
+  .content-header .btn button:last-child {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 600px) {
+  /*Меню*/
+
+  .menu-burger-header {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+  }
+
+  .menu-burger-header span,
+  .menu-burger-header:after,
+  .menu-burger-header:before {
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    background: #22356f;
+    margin: 0 auto;
+  }
+  .menu-burger-header span {
+    top: 18px;
+  }
+  .menu-burger-header:after,
+  .menu-burger-header:before {
+    content: '';
+  }
+  .menu-burger-header:after {
+    bottom: 5px;
+  }
+  .menu-burger-header:before {
+    top: 10px;
+  }
+
+  .nav-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #f4f9e2;
+    box-shadow: #ccc;
+    width: 60%;
+    left: -100%;
+    box-shadow: 0 4px 10px -2px #22356f;
+    transition: all 0.4s ease;
+  }
+
+  .open-menu {
+    left: 0;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu ul li,
+  .menu ul li:first-child {
+    margin-left: 1.5em;
+  }
+
+  .nav-menu li {
+    margin-left: 1em;
+    margin-bottom: 3em;
+    font-size: 1em;
+  }
+
+  .menu ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  /*Шапка*/
+
+  h1 {
+    font-size: 1em;
+    margin-top: 1vh;
+  }
+
+  .content-header .p-first {
+    font-size: 1.3em;
+    margin-top: 10vh;
+  }
+
+  .content-header .p-second {
+    font-size: 1em;
+  }
+
+  .content-header .btn {
+    margin-top: 10vh;
+  }
+
+  .menu button {
+    font-size: 0.7em;
+  }
+
+  .content-header .btn button:first-child {
+    font-size: 0.7em;
+  }
+
+  .content-header .btn button:last-child {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 375px) {
+  .menu {
+    margin-top: 3vh;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+  .content-header .p-first {
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 7vh;
+  }
+
+  .content-header .p-second {
+    width: 90%;
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-top: 7vh;
+  }
+
+  .menu button {
+    font-size: 0.6em;
+  }
+
+  .content-header .btn button:first-child {
+    font-size: 0.65em;
+  }
+
+  .content-header .btn button:last-child {
+    font-size: 0.65em;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 0.7em;
+  }
+  .content-header .p-first {
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
+
+  .content-header .p-second {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+
+  .content-header .btn {
+    margin-top: 20%;
+  }
+
+  .menu button {
+    font-size: 0.5em;
+  }
+
+  .content-header .btn button:first-child {
+    font-size: 0.5em;
+  }
+
+  .content-header .btn button:last-child {
+    font-size: 0.5em;
+  }
+}

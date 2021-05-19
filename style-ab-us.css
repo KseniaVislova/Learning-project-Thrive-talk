@@ -1,0 +1,174 @@
+/*Секция о компании*/
+
+.about-us {
+  margin: 0;
+  width: 100%;
+}
+
+.bg-blue {
+  width: 100%;
+  background-color: #62d0df;
+  margin: 0;
+}
+
+.about-us-right-image {
+  margin: 0;
+  width: 100%;
+  max-width: 3000px;
+  margin: 0 auto;
+  height: 607px;
+  background: url('/img/christopher-campbell-40367.png') no-repeat top right;
+}
+
+.about-us .container-first {
+  width: calc(100%-48.9%);
+  margin: 0 10.42% 0 12.4%;
+}
+
+.about-us .container-first h3 {
+  position: relative;
+  width: 32%;
+  margin: 0;
+  padding-top: 151px;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 0.75;
+  color: #fff;
+}
+
+.about-us .container-first p {
+  margin: 75px 0 0;
+  width: calc(100% - 450px);
+  color: #fff;
+}
+
+.about-us .container-first p span {
+  font-size: 0.83em;
+}
+
+.about-us .container-second {
+  margin: 0;
+  height: 361px;
+  width: 100%;
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+.about-us .container-second h2 {
+  display: inline-block;
+  font-size: 0.66em;
+  font-weight: normal;
+  line-height: 1.40625;
+  letter-spacing: 0.06em;
+
+  margin: 0;
+  margin-top: 156px;
+  margin-left: 106px;
+  vertical-align: top;
+}
+
+.about-us .container-second p {
+  display: inline-block;
+  width: calc(100% - 778px);
+  line-height: 1.40625;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-style: medium;
+  margin-left: 225px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+/*Секция о нашей пользе*/
+
+.container-third {
+  height: 600px;
+  width: 100%;
+  max-width: 3000px;
+  margin: 0 auto;
+}
+
+.container-third p {
+  font-size: 0.67em;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: 76px;
+}
+
+.container-third .list-help {
+  margin: 0 auto;
+  padding: 0;
+  list-style-image: url(/img/Ellipse.png);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-third .list-help li {
+  margin: 0;
+  width: 25vw;
+  min-width: 200px;
+  max-width: 360px;
+  height: 25vw;
+  min-height: 200px;
+  max-height: 360px;
+
+  color: #fff;
+  font-size: 1.34em;
+  letter-spacing: -0.006em;
+  line-height: 1.0625;
+}
+
+.container-third .list-help li .line {
+  display: block;
+  width: 70.8%;
+  height: 20%;
+  margin: 0 auto;
+
+  border-bottom: 1px solid #fff;
+}
+
+.container-third .list-help li .text {
+  position: relative;
+  display: block;
+  margin: 23px 78px 0 64px;
+
+  text-align: center;
+}
+
+.container-third .list-help li .dot {
+  display: block;
+  background: url(/img/Ellipse.png);
+  width: 9px;
+  height: 9px;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+
+/*.container-third .list-help li .text::before {
+  content: '';
+  background: url(/img/Ellipse.png) no-repeat center center;
+  display: block;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 20%;
+  left: -15%;
+}*/
+
+.container-third .list-help li:nth-child(1) {
+  background-color: #ffe2de;
+}
+
+.container-third .list-help li:nth-child(2) {
+  background-color: #c4e769;
+}
+
+.container-third .list-help li:nth-child(3) {
+  background-color: #62d0df;
+}
+.container-third .list-help li:nth-child(4) {
+  background-color: #0052c1;
+}
